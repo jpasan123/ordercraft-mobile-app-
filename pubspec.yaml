@@ -1,0 +1,39 @@
+name: myapp
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.2
+  flutter_staggered_animations: ^1.0.0
+  flutter_svg: ^1.0.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/ordercraft.png 
+    - assets/images/product1.png
+    - assets/images/product2.png
+    - assets/images/product3.png
+    - assets/images/product4.png
+# Suggested code may be subject to a license. Learn more: ~LicenseLog:1036712461.
+    - assets/images/product5.png
+    - assets/images/product6.png
+    - assets/images/product7.png
+    - assets/images/product8.png
+
+  
